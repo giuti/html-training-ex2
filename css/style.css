@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 22px;
   background-color: #49c;
@@ -7,11 +7,11 @@ body {
 }
 
 header {
-  height:74px;
+  height: 74px;
   background-color: #49c;
 }
 
-h2, h3{
+h2, h3 {
   color: #49c;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 a {
   color: #49c;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 p {
@@ -57,12 +57,13 @@ main {
 .users {
   overflow: hidden;
 }
+
 .users li {
   overflow: hidden;
   margin-bottom: 24px;
 }
-.users img
-{
+
+.users img {
   border-radius: 32px;
   border: 1px solid #ddd;
   height: 64px;
@@ -70,19 +71,22 @@ main {
   float: left;
   background-color: #fff;
 }
+
 .users h3, .users span {
   margin-left: 76px;
 }
+
 .users span {
   display: block;
   line-height: 30px;
 }
 
-footer{
+footer {
   text-align: center;
   color: #fff;
   line-height: 36px;
 }
+
 footer span {
   color: #fafafa;
 }
